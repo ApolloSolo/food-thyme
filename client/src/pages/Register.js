@@ -46,12 +46,12 @@ const Register = () => {
   return (
     <div className="h-[calc(100vh-64px)] md:h-[calc(100vh-64px)] flex justify-center md:items-start items-center w-full">
       <form onSubmit={onSubmit} className="md:mt-[5%] h-full">
-        <div className="bg-[#797979] px-10 py-8 md:rounded-xl w-screen shadow-md md:max-w-md md:text-2xl h-full md:h-auto">
+        <div className="bg-[#797979] px-10 py-8 md:rounded-xl w-screen shadow-md md:max-w-md text-xl h-full md:h-auto">
           <div className="space-y-4">
             <h1 className="text-center text-2xl md:text-3xl md:mb-8 font-semibold text-white">
               Sign Up
             </h1>
-            <div className="relative md:text-2xl">
+            <div className="relative">
               <label
                 htmlFor="username"
                 className="block mb-1 text-white font-semibold"

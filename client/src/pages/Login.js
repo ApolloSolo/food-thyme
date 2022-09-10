@@ -48,7 +48,7 @@ const Login = () => {
             <h1 className="text-center text-2xl md:text-3xl md:mb-8 font-semibold text-white">
               Login
             </h1>
-            <div className="relative text-2xl">
+            <div className="relative text-xl">
               <label
                 htmlFor="email"
                 className="block mb-1 text-white font-semibold"
@@ -64,7 +64,7 @@ const Login = () => {
               />
               <AiOutlineMail className="absolute left-2 top-12" />
             </div>
-            <div className="relative text-2xl">
+            <div className="relative text-xl">
               <label
                 htmlFor="password"
                 className="block mb-1 text-white font-semibold"
