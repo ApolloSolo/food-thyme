@@ -8,6 +8,7 @@ import Register from "./pages/Register";
 import Fast from "./pages/fast/Fast";
 import Mealtimes from "./pages/mealtimes/Mealtimes";
 import Diet from "./pages/diet/Diet";
+import Nation from "./pages/nationality/Nation";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/30minutes" element={<Fast />} />
           <Route path="/mealtimes" element={<Mealtimes />} />
           <Route path="/diet" element={<Diet />} />
+          <Route path="/nationality/:nation" element={<Nation />}/>
         </Routes>
       </main>
     </Router>
@@ -32,3 +34,5 @@ function App() {
 }
 
 export default App;
+
+
